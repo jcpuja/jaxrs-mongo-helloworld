@@ -1,10 +1,20 @@
 package com.jcpuja.traveldiary;
 
 
+import com.jcpuja.traveldiary.domain.Message;
+import org.jongo.MongoCollection;
+
+import javax.inject.Inject;
+import javax.inject.Named;
+
 public class HelloService {
-    private static final String CLICHED_MESSAGE = "Hello World!";
+    @Inject
+    @Named(MyResourceConfig.MESSAGES_COLLECTION)
+    MongoCollection messages;
 
     public String provideClichedMessage() {
-        return CLICHED_MESSAGE;
+        Message clichedMessage = messages.findOne().as(Message.class);
+
+        return clichedMessage != null ? clichedMessage.getMessage() : "Message not found";
     }
 }
