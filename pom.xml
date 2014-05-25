@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jcpuja</groupId>
-    <artifactId>travel-diary</artifactId>
+    <artifactId>jaxrs-mongo-helloworld</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>

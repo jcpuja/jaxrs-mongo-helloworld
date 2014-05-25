@@ -1,4 +1,4 @@
-package com.jcpuja.traveldiary;
+package com.jcpuja.jaxrsmongohelloworld;
 
 import com.sun.net.httpserver.HttpServer;
 import org.glassfish.jersey.jdkhttp.JdkHttpServerFactory;

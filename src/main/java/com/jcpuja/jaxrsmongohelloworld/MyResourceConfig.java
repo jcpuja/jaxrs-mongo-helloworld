@@ -1,4 +1,4 @@
-package com.jcpuja.traveldiary;
+package com.jcpuja.jaxrsmongohelloworld;
 
 import com.mongodb.DB;
 import com.mongodb.MongoClient;
@@ -14,7 +14,7 @@ public class MyResourceConfig extends ResourceConfig {
 
     public MyResourceConfig() {
         register(new MyBinder());
-        packages(true, "com.jcpuja.traveldiary");
+        packages(true, "com.jcpuja.jaxrsmongohelloworld");
     }
 
     public class MyBinder extends AbstractBinder {

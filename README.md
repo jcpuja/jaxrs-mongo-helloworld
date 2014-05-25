@@ -1,4 +1,4 @@
-travel-diary
+jaxrs-mongo-helloworld
 ============
 
-A travel diary web app
+An example hello world app integrating JAX-RS and a mongodb backend

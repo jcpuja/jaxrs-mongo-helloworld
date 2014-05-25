@@ -1,4 +1,4 @@
-package com.jcpuja.traveldiary;
+package com.jcpuja.jaxrsmongohelloworld;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;

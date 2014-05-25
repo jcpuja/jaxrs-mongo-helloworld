@@ -1,4 +1,4 @@
-package com.jcpuja.traveldiary.domain;
+package com.jcpuja.jaxrsmongohelloworld.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.jongo.marshall.jackson.oid.ObjectId;

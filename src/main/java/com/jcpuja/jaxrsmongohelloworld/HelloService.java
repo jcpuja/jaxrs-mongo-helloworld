@@ -1,7 +1,7 @@
-package com.jcpuja.traveldiary;
+package com.jcpuja.jaxrsmongohelloworld;
 
 
-import com.jcpuja.traveldiary.domain.Message;
+import com.jcpuja.jaxrsmongohelloworld.domain.Message;
 import org.jongo.MongoCollection;
 
 import javax.inject.Inject;
